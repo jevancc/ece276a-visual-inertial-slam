@@ -1,0 +1,6 @@
+[style]
+based_on_style = google
+split_before_logical_operator = true
+NO_SPACES_AROUND_SELECTED_BINARY_OPERATORS = true
+USE_TABS = false
+COLUMN_LIMIT = 119
