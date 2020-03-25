@@ -1,7 +1,7 @@
 # Visual-Inertial SLAM
 This is the project 3 of the course UCSD ECE276A: Sensing & Estimation in Robotics.
 
-<img src="images/cover.png" width="500">
+<img src="images/cover.png" height="400">
 
 Simultaneous Localization And Mapping (SLAM) is a challenging topic in robotics and has been researched for a few decades. When building a map from the observations of a robot, a good estimate of the robot's location is necessary. However, a robot needs a consistent and reliable map for localization. SLAM is the computational problem to simultaneously estimates a map of the environment and pose of a moving robot relative to that map, without any a-priori information external to the robot except for the observations of the robot. SLAM approaches are capable of building the map online while correcting the errors of its pose estimate as it sensing the surroundings.
 
