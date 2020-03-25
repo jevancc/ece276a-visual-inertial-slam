@@ -22,20 +22,24 @@ In this project, we develop a solution for visual-inertial SLAM based on Extende
 
 ## Implementations:
 ### Source files
-- src/robot.py: Functions for rotations and transformations
-- src/mapping.py: Class for landmark mapping via EKF update (Part b)
+- **src/robot.py**: Functions for rotations and transformations
+- **src/mapping.py**: Class for landmark mapping via EKF update (Part b)
     - EKFLandmarkMapping: Class provides methods for EKF update and predict. You may achieve IMU-based localization via EKF prediction (Part a) by calling predict method with u (linear velocity and angular velocity) only.
-- src/slam.py: Class for visual inertial SLAM (Part c)
+- **src/slam.py**: Class for visual inertial SLAM (Part c)
     - EKFSLAM: Class provides methods for EKF update and predict.
-- src/utils.py: Functions for data loading and visualization
+- **src/utils.py**: Functions for data loading and visualization
 
 ### Tools
-- tools/make_video.py: make video from experiment output images
+- **tools/make_video.py**: make video from experiment output images
 
 ### Notebooks
-- EKFLandmarkMapping.ipynb: Experiments of landmark mapping via EKF update (Part b) with IMU-based localization via EKF prediction (Part a)
-- EKFSLAM.ipynb: Experiments of visual inertial SLAM (Part c)
+- **EKFLandmarkMapping.ipynb**: Experiments of landmark mapping via EKF update (Part b) with IMU-based localization via EKF prediction (Part a)
+- **EKFSLAM.ipynb**: Experiments of visual inertial SLAM (Part c)
 
+## Training data
+[Download data from UCSD ECE276A 2020 PR3](https://drive.google.com/file/d/1vQaMMZltsjPQN18BdrvquTpXoq7fyoyg/view?usp=sharing)
+
+Download and extract files to directory `data`.
 
 ## References
 * [UCSD ECE276A: Sensing & Estimation in Robotics](https://natanaso.github.io/ece276a/)
